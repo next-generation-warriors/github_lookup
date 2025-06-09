@@ -1,0 +1,45 @@
+.externalNativeBuild
+.cxx
+
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Android Studio/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.hprof
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Crashlytics / Firebase
+crashlytics-build.properties
+
+# Keystore
+*.jks
+*.keystore
+
+# NDK build artifacts
+obj/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Others
+captures/
+output.json
